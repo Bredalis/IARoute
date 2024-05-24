@@ -1,0 +1,100 @@
+
+* {
+	font-family: 'Montserrat';
+}
+
+#img-1, #img-2, #img-3 {
+	border-radius: 1rem;
+}
+
+nav {
+	background: #bde0fe;
+}
+
+#logo {
+	border-radius: 50%;
+}
+
+li {
+	font-size: 20px;
+}
+
+header h2 {
+	text-align: center;
+	margin: 40px;
+}
+
+#img-1 {
+	margin-left: 110px;
+}
+
+#img-2 {
+	margin-left: 800px;
+}
+
+#img-3 {
+	margin-top: -900px;
+}
+
+#definicion, #importancia, #importancia-2 {
+	background: #a2d2ff;
+	padding: 30px;
+	font-size: 20px;
+	border-radius: 20%;
+}
+
+#definicion {
+	margin-top: 30px;
+	width: 30%;
+	float: right;
+}
+
+#importancia {
+	position: relative;
+	bottom: 400px;
+	right: 315px;
+	width: 50%;
+}
+
+#importancia p {
+	padding-top: 40px;
+	padding-left: 30px;
+}
+
+#importancia-2 {
+	position: relative;
+	bottom: 250px;
+	left: 315px;
+	width: 50%;
+}
+
+#importancia-2 p {
+	padding-top: 40px;
+	padding-left: 30px;
+}
+
+#ruta {
+	position: relative;
+	bottom: 200px;
+}
+
+#ruta h2 {
+	margin: 20px;
+	padding: 20px;
+}
+
+#ruta p {
+	padding: 30px;
+	margin-bottom: -50px;
+}
+
+footer {
+	position: relative;
+	top: 200px;
+	margin-top: -400px;
+}
+
+footer p {
+	position: relative;
+	font-size: 20px;
+}

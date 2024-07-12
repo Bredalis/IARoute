@@ -1,100 +1,81 @@
 
-* {
-	font-family: 'Montserrat';
+@font-face {
+	font-family: "SplineSansMonoLight";
+	src: url("../Fuentes/SplineSansMonoLight.ttf") format("opentype");
 }
 
-#img-1, #img-2, #img-3 {
+* {
+	text-align: center;
+	font-family: "SplineSansMonoLight";	
+}
+
+nav a img {
+	transition: transform 0.5s ease;
+}
+
+nav a img:hover {
+	transform: scale(1.2);
+}
+
+div h1 {
+	margin: 30px;
+	font-size: 35px;
+}
+
+h1 strong, h2 strong {
+	color: #4ea8de;
+}
+
+div img {
 	border-radius: 1rem;
 }
 
-nav {
-	background: #bde0fe;
-}
-
-#logo {
-	border-radius: 50%;
-}
-
-li {
-	font-size: 20px;
-}
-
-header h2 {
-	text-align: center;
-	margin: 40px;
-}
-
-#img-1 {
-	margin-left: 110px;
-}
-
-#img-2 {
-	margin-left: 800px;
-}
-
-#img-3 {
-	margin-top: -900px;
-}
-
-#definicion, #importancia, #importancia-2 {
-	background: #a2d2ff;
-	padding: 30px;
-	font-size: 20px;
-	border-radius: 20%;
-}
-
-#definicion {
-	margin-top: 30px;
-	width: 30%;
-	float: right;
-}
-
-#importancia {
+div p {
+	width: 20%;
+	text-align: justify;
 	position: relative;
-	bottom: 400px;
-	right: 315px;
-	width: 50%;
+	left: 38%;
+	margin: 30px;
 }
 
-#importancia p {
-	padding-top: 40px;
-	padding-left: 30px;
+#definicion audio {
+	position: fixed;
+	margin-left: 24%;
+	margin-top: 7%;
 }
 
-#importancia-2 {
-	position: relative;
-	bottom: 250px;
-	left: 315px;
-	width: 50%;
-}
-
-#importancia-2 p {
-	padding-top: 40px;
-	padding-left: 30px;
-}
-
-#ruta {
-	position: relative;
-	bottom: 200px;
+#definicion p strong, #importancia p strong {
+	color: #5390d9;
 }
 
 #ruta h2 {
-	margin: 20px;
-	padding: 20px;
+	margin: 40px;
 }
-
-#ruta p {
-	padding: 30px;
-	margin-bottom: -50px;
-}
-
-footer {
+	
+section p {
+	background-color: #5390d9;
+	color: whitesmoke;
+	border-radius: 1rem;
+	width: 40%;
 	position: relative;
-	top: 200px;
-	margin-top: -400px;
+	left: 29%;
+	padding: 20px;
+	margin: 20px;	
+	transition: transform 0.5s ease;
+}
+
+section p:hover {
+	margin: 25px;
+	transform: scale(1.2);
 }
 
 footer p {
-	position: relative;
+	padding: 20px;
 	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: -1px;
+}
+
+footer p strong {
+	color: #4ea8de;
 }

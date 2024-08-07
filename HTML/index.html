@@ -11,7 +11,6 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-
 	<nav class="navbar navbar-expand-lg">
 		<div class="container">
 			<a href="index.html" class="navbar-brand">
@@ -45,14 +44,16 @@
 		</div>
 	</nav>
 
-	<div>
-		<h1><strong>Ruta</strong> Para Convertirte En Un Profesional En La <strong>IA</strong></h1>
-
+	<main>
+		<h1 class="animacion"><strong>Ruta</strong> Para Convertirte En Un Profesional En La <strong>IA</strong></h1>
+		<button onclick="scrollToTop()">
+	        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM13 12V16H11V12H8L12 8L16 12H13Z"></path></svg>
+	    </button>
+		
 		<div id="definicion">
-
 			<audio src="../Contenido.mp3" controls></audio>
 			<br>
-			<img src="../IMG/IA_1.jpg" alt="ia1">			
+			<img src="../IMG/IA_1.jpg" alt="ia1" class="animacion">			
 			<p>
 				<strong>Definición:</strong>
 				La Inteligencia Artificial es un campo de la informática que se centra en la creación de sistemas capaces de realizar tareas que, normalmente, requieren inteligencia humana. Esto incluye el aprendizaje, razonamiento, percepción, reconocimiento de voz y patrones, toma de decisiones, entre otros.
@@ -60,8 +61,7 @@
 		</div>
 
 		<div id="importancia">
-
-			<img src="../IMG/IA_2.jpg" alt="ia2">
+			<img src="../IMG/IA_2.jpg" alt="ia2" class="animacion">
 			<p>
 				<strong>Avance tecnológico</strong>: 
 				Ha impulsado la innovación en diversas industrias, desde la atención médica hasta el transporte.
@@ -77,18 +77,19 @@
 				<strong>Sociedad y economía</strong>: 
 				Impacta la economía global y la forma en que interactuamos con la tecnología en la vida diaria.
 			</p>
+			
+			<img src="../IMG/IA_3.jpg" alt="ia3" class="animacion">
 			<p>
 				El crecimiento profesional se ve impulsado por la creciente demanda de habilidades en Inteligencia Artificial (IA) en el mercado laboral actual y futuro. Estas habilidades capacitativas no solo permiten abordar desafíos complejos, sino que también posibilitan encontrar soluciones innovadoras a problemas diversos. Además, dominar la IA ofrece la oportunidad de influir positivamente en el impacto social al contribuir al desarrollo de tecnologías éticas y responsables que beneficien a la sociedad en general.
 			</p>
 		</div>
 
 		<div id="ruta">
-			<img src="../IMG/IA_3.jpg" alt="ia3">
 
 			<hr>
-			<h2><strong>Ruta</strong> desde <strong>Cero</strong> hasta nivel <strong>Profesional</strong></h2>
+			<h2 class="animacion"><strong>Ruta</strong> desde <strong>Cero</strong> hasta nivel <strong>Profesional</strong></h2>
 
-			<section>
+			<section class="animacion">
 				<p>
 					<strong>Fundamentos Matemáticos</strong>: <br>Álgebra y Cálculo: Dominar conceptos como álgebra lineal, cálculo diferencial e integral es crucial para comprender algoritmos y modelos de IA.
 				</p>
@@ -122,10 +123,27 @@
 				Esta ruta combina una base sólida en matemáticas, programación y teoría de IA con la aplicación práctica a través de proyectos reales. Es esencial seguir aprendiendo y adaptándose, ya que la IA es un campo en constante evolución.
 			</p>		
 		</div>
-	</div>
+	</main>
 
 	<footer>
-		<p> Gracias por leer fue creada con mucho amor por la comunidad de <br>💙 <strong>CodeMasterMind</strong> 💙</p>
-	</footer>
+        <a href="index.html"><img src="../IMG/Logo.png"></a>
+        <div>
+            <ul>
+                <li><a href="https://github.com/Bredalis" target="_blank">GitHub<a></li>
+                <li><a href="https://www.linkedin.com/in/bredalis-gautreaux/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://es.stackoverflow.com/users/293358/bredalis-gautreaux" target="_blank">Stack OverFlow</a></li>
+                <li><a href="https://huggingface.co/chat/assistants?user=Bredalis" target="_blank">Hugging Face</a></li>
+                <li><a href="https://x.com/Bredalis_P" target="_blank">X</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">Licencia Pública General GNU v3.0</a></li>
+            </ul>
+
+            <p>© 2024 CodeMasterMind <br> Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+	<script src="../JS/main.js"></script>
 </body>
 </html>

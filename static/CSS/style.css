@@ -9,8 +9,12 @@
 	font-family: "SplineSansMonoLight";	
 }
 
-nav a img {
-	transition: transform 0.5s ease;
+html {
+	scroll-behavior: smooth;
+}
+
+nav a img { 
+    transition: transform 0.5s ease;
 }
 
 nav a img:hover {

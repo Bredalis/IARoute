@@ -8,6 +8,10 @@
 	text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	font-family: "SplineSansMonoBoldItalic";
 } 

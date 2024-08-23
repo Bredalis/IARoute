@@ -45,19 +45,14 @@ Para ver la página solo debes seguir estos pasos:
 
 1. 📦 Haber clonado el repositorio (La forma de hacerlo se explica más arriba, antes de esta parte).
 
-2. 📝 Abrir tu editor de código preferido.
-
-3.  🌐 Ubicarte en el archivo index.html que está en la carpeta HTML, presionar click derecho y darle
-   a Abrir en navegador (Sublime Text) o Abrir con Live Browser en VS Code.
-
 2. 📝 Abrir tu editor de código preferido o teminal.
 
-1. 🔧 Ejecutar el Servidor en la terminal:
+3. 🔧 Ejecutar el Servidor en la terminal:
     ```bash
     python App.py
     ```
 
-4. En el editor con Ctrl + B (Sublime Text) o Ctrl + J y escribes:
+4. 🔧 En el editor con Ctrl + B (Sublime Text) o Ctrl + J y escribes:
     ```bash
     python App.py
     ```

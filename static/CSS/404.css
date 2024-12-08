@@ -14,7 +14,7 @@ html {
 
 body {
 	font-family: "SplineSansMonoBoldItalic";
-} 
+}
 
 main {
 	margin: 10%;
@@ -35,8 +35,8 @@ button {
     width: 10%;
     position: fixed;
     margin-left: -44%;
-    border: none; 
-    cursor: pointer;   
+    border: none;
+    cursor: pointer; 
 }
 
 button svg {
@@ -102,7 +102,7 @@ footer p {
     margin-bottom: -10px;
 }
 
-/* Animacion */
+/* Animación */
 @keyframes slide-up {
     to {
         opacity: 1;
